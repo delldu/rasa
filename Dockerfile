@@ -44,6 +44,6 @@ WORKDIR /app
 
 EXPOSE 5005
 
-ENTRYPOINT ["rasa"]
+#ENTRYPOINT ["rasa"]
 
-CMD ["--help"]
+#CMD ["--help"]
